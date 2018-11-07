@@ -18,7 +18,7 @@ public class CityRestController {
     @PutMapping(value = "/api/transaction/test")
     public void testTransaction(){
 
-        cityService.parent();
+        cityService.parent(); 
     }
 
 }
